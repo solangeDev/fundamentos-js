@@ -11,7 +11,7 @@ const email3 = document.querySelector('#email');
 const link = document.getElementById("link"); 
 
 name1.addEventListener('input', function (evt) {
-    //nombre = this.value; error en consola
+   //nombre = this.value; error en consola scope this
    //console.log(evt); revisar la estructura de los eventos
    let cont_resp = document.querySelector('#name_resp'); 
    cont_resp.innerHTML = this.value
