@@ -1,0 +1,14 @@
+.addParallax{
+    height: 900px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('../img/nicola-perantoni-251.jpg');
+}
+
+.hover{
+    color: red;
+}
+
+/* .nodo-nuevo{
+    color:green;
+} */

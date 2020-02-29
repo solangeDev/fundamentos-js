@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo del Dom</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/landing.css">
+
+</head>
+<body>
+    <!-- section.container-fluid -->
+    <section class="container-fluid">
+        <!-- section.row>(article.col-4>(h3.text-center>{Titulo})+p.text-center>lorem15)*3 -->
+        <section class="row">
+            <article class="col-4">
+                <h3 class="text-center cursor" id="clickTitulo" data-change="1">Titulo</h3>
+                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia nulla consectetur, ab sed ut rerum?</p>
+            </article>
+            <article class="col-4" id="pepe">
+                <h3 id="hoverTitulo"  class="text-center cursor">Titulo</h3>
+                <p class="text-center">Sunt, ratione quae tempore recusandae accusantium magni quibusdam consectetur adipisci nobis itaque explicabo iste odio.</p>
+            </article>
+            <article class="col-4">
+                <h3 class="text-center">Titulo</h3>
+                <p class="text-center">Sed cum placeat magnam eligendi qui quibusdam accusantium nobis voluptas inventore! Itaque alias eum iste.</p>
+            </article>
+        </section>
+        <!-- section.parallax#parallax -->
+        <section class="parallax" id="parallax"></section>
+        <section class="mt-2">
+            <div class="form-group">
+                <label class="font-weight-bold">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+              </div>
+              <div class="mensaje hide">
+                  <div>1er nodo</div>
+              </div>
+        </section>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="landing.js"></script>
+</body>
+</html>
